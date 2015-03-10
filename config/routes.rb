@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'rule/input'
+
+  get 'rule/output'
+
   root 'static_pages#home'
 
   get 'static_pages/help'
