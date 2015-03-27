@@ -11,16 +11,26 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20150327195906) do
+=======
+ActiveRecord::Schema.define(version: 20150327010525) do
+>>>>>>> f96a32fb3e5b07e5398fad155db4d8735767dace
 
   create_table "users", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
+<<<<<<< HEAD
     t.datetime "created_at",      null: false
     t.datetime "updated_at",      null: false
     t.string   "password_digest"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true
+=======
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+>>>>>>> f96a32fb3e5b07e5398fad155db4d8735767dace
 
 end

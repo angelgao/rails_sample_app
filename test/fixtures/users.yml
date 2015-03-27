@@ -1,1 +1,13 @@
+<<<<<<< HEAD
 #empty
+=======
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: MyString
+
+two:
+  name: MyString
+  email: MyString
+>>>>>>> f96a32fb3e5b07e5398fad155db4d8735767dace
