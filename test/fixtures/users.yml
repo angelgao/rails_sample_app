@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
@@ -7,3 +8,6 @@ one:
 two:
   name: MyString
   email: MyString
+=======
+#empty
+>>>>>>> eb8d8310dce458314ee70f5760db7f66bf8fba25
